@@ -1,6 +1,8 @@
 pragma solidity ^0.8.4;
 pragma experimental ABIEncoderV2;
 
+import "https://github.com/giupt/validation/blob/main/owned.sol";
+
 contract designvalidation is owned {
 
   event Inserted(address _sender, address _recordId);
