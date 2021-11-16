@@ -4,6 +4,9 @@ pragma experimental ABIEncoderV2;
 //Name: Validationcondition
 //Description: This validates the result of the verification
 
+import "https://github.com/giupt/validation/blob/main/owned.sol";
+import "https://github.com/giupt/validation/blob/main/Idesignvalidation.sol";
+
 contract trigger is owned {
   using SafeMath for uint;
 
