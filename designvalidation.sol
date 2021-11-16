@@ -1,3 +1,6 @@
+pragma solidity ^0.8.4;
+pragma experimental ABIEncoderV2;
+
 contract designvalidation is owned {
 
   event Inserted(address _sender, address _recordId);
